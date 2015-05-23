@@ -11,6 +11,13 @@ import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.core.IMap;
 import com.test.hazelcastexample.domian.Node;
 
+/**
+ * This class start the server and update the status with "We are started!" in 
+ * the distributed shared cache.
+ * 
+ * @author anand prakash
+ *
+ */
 public class HazelCastServer {
 
 	public static void main(String[] args) {

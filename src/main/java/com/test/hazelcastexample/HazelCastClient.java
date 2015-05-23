@@ -11,6 +11,13 @@ import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.core.IMap;
 import com.test.hazelcastexample.domian.Node;
 
+/**
+ * This class is an example of a client application which connects to the distributed cache and check the status,if it already started,it will print following message.
+ * "I'm not started,Master node 'Node1' with Node ID-'1' is already started.." 
+ * 
+ * @author anand prakash
+ *
+ */
 public class HazelCastClient {
 	private static final String STATUS = "We are started!";
 	
