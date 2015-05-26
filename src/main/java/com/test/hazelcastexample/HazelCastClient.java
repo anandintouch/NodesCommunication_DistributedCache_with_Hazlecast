@@ -34,7 +34,7 @@ public class HazelCastClient {
 
 	@SuppressWarnings("unchecked")
 	private static void checkStatusAndPrint(@SuppressWarnings("rawtypes") Map map) {
-		System.out.println("Map Size:" + map.size());
+
 		Set<Entry<Object, Object>> nodes = map.entrySet();
 		
 		Entry<Object, Object> entry = null;

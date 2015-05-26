@@ -34,7 +34,6 @@ public class HazelCastServer {
 		if(nodesMap.size() == 0)
 			nodesMap.put(1, new Node("Node1","We are started!"));
 
-		System.out.println("Map Size:" + nodesMap.size());
 		Set<Entry<Object, Object>> nodes = nodesMap.entrySet();
 
 		for (Iterator<Entry<Object, Object>> iterator = nodes.iterator(); iterator
@@ -44,7 +43,6 @@ public class HazelCastServer {
 			String nodeName = ((Node) entry.getValue()).getNodeName();
 			
 			System.out.println("Node status:"+ ((Node) entry.getValue()).getStatus());
-			System.out.println("Node Id:" + entry.getKey()+ "\nNode name: " + nodeName );
 			
 		}
 		
